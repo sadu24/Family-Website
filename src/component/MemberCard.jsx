@@ -10,7 +10,7 @@ function MemberCard({ member }) {
   const defImage = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F08%2F08%2F09%2F17%2Favatar-1577909_1280.png";
 
   return (
-    <div className="card memberItem min-w-80 bg-base-100 shadow-md p-4 border border-gray-600">
+    <div className="card memberItem w-80 bg-base-100 shadow-md p-4 border border-gray-600">
       <div className="flex items-center gap-4">
         <img
           className="w-16 h-16 rounded-full"
