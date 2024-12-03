@@ -64,7 +64,7 @@ function Profile() {
   if (errorUser) return <div>Error: {errorUser.message}</div>;
 
   return (
-    <div className="max-w-xl mx-auto shadow-md rounded-lg p-6 border border-gray-700 my-10 h-[95vh]">
+    <div className="max-w-xl mx-auto shadow-md rounded-lg p-6 border border-gray-700 my-10 min-h-[95vh]">
       <div className="flex items-center space-x-4 mb-6">
         <img
           className="w-20 h-20 rounded-full object-cover"
